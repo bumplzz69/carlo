@@ -4,7 +4,9 @@
   "description": "Multiple windows example",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "windows-app": "./main.js"
@@ -13,6 +15,8 @@
   "author": "The Chromium Authors",
   "license": "Apache-2.0",
   "dependencies": {
-    "carlo": "^0.9.0"
-  }
+    "carlo": "^0.9.0",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
