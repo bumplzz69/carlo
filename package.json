@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "debug": "^4.1.0",
-    "puppeteer-core": "^1.9.0"
+    "puppeteer-core": "^19.7.3"
   },
   "devDependencies": {
     "eslint": "^5.8.0",
